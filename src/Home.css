@@ -1,0 +1,160 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.HeaderText {
+    font-size: 30px;
+    font-weight: bold;
+    color: #50B3FA;
+    text-transform: uppercase;
+}
+
+.LampImg {
+    width: 262px;
+    height: 197px;
+}
+
+.LampContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.LampStatus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 10px;
+}
+
+.LampStatusText {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: 10px;
+    font-weight: 500;
+    color: grey;
+}
+
+.LampStatusButton {
+    cursor: pointer;
+}
+
+.LampReload {
+    cursor: pointer;
+}
+
+.ButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 70px;
+    background-color: white; 
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(119, 109, 109, 0.3);
+    cursor: pointer;
+    color: #50B3FA;
+}
+
+.true {
+    background-color: #50B3FA;
+    color: white;
+}
+
+.ButtonContainer:hover {
+    box-shadow: 5px 5px rgba(119, 109, 109, 0.4);
+}
+
+.ButtonContainerSend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 70px;
+    background-color: white; 
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(119, 109, 109, 0.3);
+    cursor: pointer;
+    color: #787878;
+}
+
+.ButtonContainerSend:hover {
+    box-shadow: 5px 5px rgba(119, 109, 109, 0.4);
+}
+
+.ButtonContainerSend .ButtonText {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ButtonContainerSend.true {
+    background-color: #39DA00;
+}
+
+.ButtonContainerSend.true .ButtonText {
+    color: white;
+}
+
+.ButtonText {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;   
+}
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.FooterText {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #787878;
+}
+
+@media screen and (max-width: 500px) {
+    .ButtonContainer {
+        width: 60%;
+    }
+
+    .ButtonContainerSend {
+        width: 60%;
+    }
+    
+}
