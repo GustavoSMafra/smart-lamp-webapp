@@ -12,7 +12,9 @@
   <a href="#credits">Credits</a> •
 </p>
 
-![screenshot](https://github.com/GustavoSMafra/smart-lamp-webapp/blob/main/imgs/smart-lamp-webapp-img.png)
+<p align="center">
+  <img src="https://github.com/GustavoSMafra/smart-lamp-webapp/blob/main/imgs/smart-lamp-webapp-img.png" alt="screenshot">
+</p>
 
 ## Key Features
 
